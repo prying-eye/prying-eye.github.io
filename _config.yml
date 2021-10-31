@@ -1,0 +1,8 @@
+title: Linux
+email: 93481036+prying-eye@users.noreply.github.com 
+description: A simple blog focused on helping anyone to get Linux certification.
+baseurl: "/"
+url: "https://prying-eye.github.io"
+gems: ['jekyll-gist']
+github_username: prying-eye
+markdown: kramdown
