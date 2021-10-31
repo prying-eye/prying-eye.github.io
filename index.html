@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article>
+	<h1 class="title">Linux</h1>
+	<p>Guide to Linux Certifications</p>
+	<ol><h3>Latest Posts:</h3>
+		{% for post in site.posts limit: 5 %}
+		[+] <a href="{{ post.url }}"> {{ post.title }} </a> - {{ post.date | date_to_string }}
+		{% endfor %}
+	</ol>
+</article>
